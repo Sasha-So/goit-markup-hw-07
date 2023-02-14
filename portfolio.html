@@ -15,33 +15,37 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page">
-    <header class="page-header">
-      <div class="container head-container">
-        <nav class="parent-nav">
-          <a href="" class="logo link"><span> Web</span>Studio</a>
-          <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Студія</a></li>
+    <header class="header">
+      <div class="header__container container">
+        <nav class="nav">
+          <a href="" class="nav__logo"><span> Web</span>Studio</a>
+          <ul class="nav__list list">
             <li>
-              <a href="./portfolio.html" class="link current">Портфоліо</a>
+              <a href="./index.html" class="nav__link">Студія</a>
             </li>
-            <li><a href="Контакти" class="link">Контакти</a></li>
+            <li>
+              <a href="./portfolio.html" class="nav__link nav__link--current"
+                >Портфоліо</a
+              >
+            </li>
+            <li><a href="Контакти" class="nav__link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact list link">
-          <li class="mail">
-            <a href="mailto:info@devstudio.com" class="link">
-              <svg class="nav-icon" width="16" height="12">
+        <ul class="contact__list">
+          <li class="contact__mail">
+            <a href="mailto:info@devstudio.com" class="contact__link">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope-hover"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="link">
-              <svg class="nav-icon" width="10" height="16">
+            <a href="tel:+380961111111" class="contact__link">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -82,7 +86,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -105,7 +109,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -128,7 +132,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -151,7 +155,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -174,7 +178,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -197,7 +201,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -220,7 +224,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -243,7 +247,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -266,7 +270,7 @@
                     width="370"
                   />
                   <div class="overlay">
-                    <p class="text-overlay">
+                    <p class="overlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -284,89 +288,109 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
-      <div class="container footer-wrapper">
-        <div class="wrapper-address">
-          <a href="" class="logo link"><span>Web</span>Studio</a>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="wrapper__address">
+          <a href="" class="footer__logo"
+            ><span class="footer__span">Web</span>Studio</a
+          >
           <address>
             <ul class="list">
               <li>
-                <a href="" class="contact link white"
+                <a
+                  href=""
+                  class="footer__contact contact footer__contact--white"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
               <li>
-                <a href="mailto:info@devstudio.com" class="contact link grey"
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="footer__contact contact footer__contact--grey"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a href="tel:+380961111111" class="contact link grey"
+                <a
+                  href="tel:+380961111111"
+                  class="footer__contact contact footer__contact--grey"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-wrapper">
-          <h2 class="title">Приєднуйтесь</h2>
-          <ul class="footer-socials">
-            <li class="social-item">
+        <div class="social__wrapper">
+          <h2 class="footer__title">Приєднуйтесь</h2>
+          <ul class="footer__social">
+            <li class="social__item">
               <a
-                class="social-link"
+                class="footer__link social__link"
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="footer__icon social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
-                class="social-link"
+                class="footer__link social__link"
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="footer__icon social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
-                class="social-link"
+                class="footer__link social__link"
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="footer__icon social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
-                class="social-link"
+                class="footer__link social__link"
                 href="https://at.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="footer__icon social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+        <div class="footer__form">
+          <h2 class="footer__title">Підпишіться на розсилку</h2>
+          <form class="footer__subscribe">
+            <input
+              class="footer__email"
+              type="email"
+              placeholder="E-mail"
+              name="mail"
+            />
+            <button class="footer__button button" type="submit">
+              Підписатися
+              <svg class="footer__button--send" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
 </html>
-
-
-
-
-
