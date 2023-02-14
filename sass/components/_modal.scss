@@ -13,11 +13,10 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
-
-    & .modal {
-    transform: scale(5.0);
 }
+
+.backdrop__is-hidden .modal {
+    transform: scale(5.0);
 }
 
 .modal {
